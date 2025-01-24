@@ -6,9 +6,9 @@ on:
       - main
 
 env:
-  TF_CLOUD_ORGANIZATION: "aws-armageddon"
+  TF_CLOUD_ORGANIZATION: "janrepo"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
-  TF_WORKSPACE: "aws-armageddon-tfe"
+  TF_WORKSPACE: "janrepo_88"
   CONFIG_DIRECTORY: "./"
 
 jobs:
